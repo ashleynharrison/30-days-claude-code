@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "legal-firm": {
+      "command": "node",
+      "args": ["/path/to/day01-legal-firm/dist/index.js"]
+    }
+  }
+}
