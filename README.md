@@ -18,7 +18,7 @@ But mostly, I build.
 
 I don't come from a traditional engineering background — I taught myself to read, understand, and work with code through FreeCodeCamp (4 certifications) and by building real things with AI tools. I learn fast, I grasp technical concepts quickly, and I close the gap between "I get what this does" and "I shipped it" faster than most people expect.
 
-Before tech, I coordinated legal intake across three units at a Los Angeles law firm, managed client accounts at a medical-legal company, and streamlined scheduling operations at a court reporting firm. I've spent my career sitting at the intersection of people, process, and systems — and now I build the tools that connect all three.
+Before tech, I coordinated legal intake across three units at an immigration law firm in Los Angeles, managed client accounts at a medical-legal company, and streamlined scheduling operations at a court reporting firm. I've spent my career sitting at the intersection of people, process, and systems — and now I build the tools that connect all three.
 
 ---
 
@@ -63,7 +63,7 @@ An MCP server that connects a legal firm's case management data to Claude. No da
 
 ### Why Legal?
 
-Before tech, I worked at D'Alessio Law Group in Los Angeles, coordinating intake across three legal units — immigration, family law, and civil cases. I've seen firsthand how much time gets lost digging through case files for basic status updates. This tool makes that a one-sentence question.
+Before tech, I worked at an immigration law firm in Los Angeles, coordinating intake across three legal units — immigration, family law, and civil cases. I've seen firsthand how much time gets lost digging through case files for basic status updates. This tool makes that a one-sentence question.
 
 ### Tools
 

@@ -115,7 +115,7 @@ export default function HomePage() {
           <div className="space-y-4 text-charcoal leading-relaxed">
             <p>
               Operations professional with 13+ years of experience, currently working as a Program
-              Operations Specialist at Webflow. On the side, I run{' '}
+              Specialist at Webflow. On the side, I run{' '}
               <a href="https://tellavsn.com" className="text-terracotta hover:underline" target="_blank" rel="noopener noreferrer">
                 Tell a Vsn
               </a>
@@ -130,9 +130,9 @@ export default function HomePage() {
               people expect.
             </p>
             <p>
-              Before tech, I coordinated legal intake across three units at a Los Angeles law firm,
-              managed client accounts at a medical-legal company, and streamlined scheduling operations
-              at a court reporting firm. I&apos;ve spent my career at the intersection of people, process,
+              Before tech, I coordinated legal intake across three units at an immigration law firm
+              in Los Angeles, managed client accounts at a medical-legal company, and streamlined
+              scheduling operations at a court reporting firm. I&apos;ve spent my career at the intersection of people, process,
               and systems &mdash; and now I build the tools that connect all three.
             </p>
           </div>
@@ -145,7 +145,7 @@ export default function HomePage() {
           <p className="font-mono text-sm text-terracotta tracking-wider uppercase mb-4">Why Legal?</p>
           <h2 className="font-serif text-3xl font-bold text-ink mb-6">Built from experience</h2>
           <p className="text-charcoal leading-relaxed">
-            Before tech, I worked at D&apos;Alessio Law Group in Los Angeles, coordinating intake across
+            Before tech, I worked at an immigration law firm in Los Angeles, coordinating intake across
             three legal units &mdash; immigration, family law, and civil cases. I&apos;ve seen firsthand
             how much time gets lost digging through case files for basic status updates. This tool makes
             that a one-sentence question.
