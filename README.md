@@ -10,15 +10,15 @@ This is Day 1.
 
 ## Who's Building This
 
-I'm Ashley — an operations professional with 13+ years of experience, currently working as a Program Operations Specialist at Webflow. My day job is processing orders, tracking certification programs, building documentation, and fixing things before they break.
+I'm Ashley — an operations professional with 13+ years of experience, currently working as a Program Operations Specialist at Webflow. My day job is processing orders, tracking certification programs, and building documentation.
 
 On the side, I run [Tell a Vsn](https://tellavsn.com) — a design and technology consultancy specializing in MCP integrations, AI engineering, custom development, and UI/UX design. The tagline is "Talk to your business" because I believe the best interface for your data is a conversation.
 
 But mostly, I build.
 
-I taught myself to code through FreeCodeCamp (4 certifications — responsive web design, JavaScript, front-end libraries, data visualization). At Webflow, I built a DNS Record Checker using Claude AI and Google Gemini that reduced DNS support tickets by 60% and saved 15 minutes per case across 500+ monthly checks. I was one of three CS reps selected for the Decagon AI chatbot pilot, testing conversation flows and evaluating AI-human handoff scenarios.
+I don't come from a traditional engineering background — I taught myself to read, understand, and work with code through FreeCodeCamp (4 certifications) and by building real things with AI tools. I learn fast, I grasp technical concepts quickly, and I close the gap between "I get what this does" and "I shipped it" faster than most people expect.
 
-Before tech, I coordinated legal intake across three units at a Los Angeles law firm, managed client accounts at a medical-legal company, and eliminated double-bookings at a court reporting firm. I've spent my career sitting at the intersection of people, process, and systems — and now I build the tools that connect all three.
+Before tech, I coordinated legal intake across three units at a Los Angeles law firm, managed client accounts at a medical-legal company, and streamlined scheduling operations at a court reporting firm. I've spent my career sitting at the intersection of people, process, and systems — and now I build the tools that connect all three.
 
 ---
 

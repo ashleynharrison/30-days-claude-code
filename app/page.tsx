@@ -123,14 +123,16 @@ export default function HomePage() {
               custom development, and UI/UX design.
             </p>
             <p>
-              I taught myself to code through FreeCodeCamp (4 certifications). At Webflow, I built a
-              DNS Record Checker using Claude AI and Google Gemini that reduced DNS support tickets by
-              60% and saved 15 minutes per case across 500+ monthly checks.
+              I don&apos;t come from a traditional engineering background &mdash; I taught myself to read,
+              understand, and work with code through FreeCodeCamp (4 certifications) and by building real
+              things with AI tools. I learn fast, I grasp technical concepts quickly, and I close the gap
+              between &ldquo;I get what this does&rdquo; and &ldquo;I shipped it&rdquo; faster than most
+              people expect.
             </p>
             <p>
               Before tech, I coordinated legal intake across three units at a Los Angeles law firm,
-              managed client accounts at a medical-legal company, and eliminated double-bookings at a
-              court reporting firm. I&apos;ve spent my career at the intersection of people, process,
+              managed client accounts at a medical-legal company, and streamlined scheduling operations
+              at a court reporting firm. I&apos;ve spent my career at the intersection of people, process,
               and systems &mdash; and now I build the tools that connect all three.
             </p>
           </div>
