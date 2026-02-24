@@ -10,7 +10,7 @@ This is Day 1.
 
 ## Who's Building This
 
-I'm Ashley — an operations professional with 13+ years of experience, currently working as a Program Operations Specialist at Webflow. My day job is processing orders, tracking certification programs, and building documentation.
+I'm Ashley — an operations professional with 13+ years of experience, currently working as a Program Specialist at Webflow. My day job is processing orders, tracking certification programs, and building documentation.
 
 On the side, I run [Tell a Vsn](https://tellavsn.com) — a design and technology consultancy specializing in MCP integrations, AI engineering, custom development, and UI/UX design. The tagline is "Talk to your business" because I believe the best interface for your data is a conversation.
 
