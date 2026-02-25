@@ -1,26 +1,17 @@
 import { Scale, CreditCard, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { days as daysData, TOTAL_DAYS } from './days-data';
+import type { LucideIcon } from 'lucide-react';
 
-const days = [
-  {
-    day: 1,
-    title: 'Legal Firm Case Manager',
-    industry: 'Legal',
-    description: 'An MCP server that connects case management data to Claude. Search cases, track hearings, and surface overdue tasks.',
-    icon: Scale,
-    tools: 6,
-    status: 'shipped' as const,
-  },
-  {
-    day: 2,
-    title: 'SaaS Billing Support',
-    industry: 'SaaS / FinOps',
-    description: 'A billing support tool that lets reps query customer accounts, invoices, and transactions through natural language.',
-    icon: CreditCard,
-    tools: 6,
-    status: 'shipped' as const,
-  },
-];
+const iconMap: Record<string, LucideIcon> = {
+  Scale,
+  CreditCard,
+};
+
+const days = daysData.map((d) => ({
+  ...d,
+  icon: iconMap[d.icon] || Scale,
+}));
 
 export default function HomePage() {
   return (
@@ -79,7 +70,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto">
           <p className="font-mono text-sm text-terracotta tracking-wider uppercase mb-4">Progress</p>
           <h2 className="font-serif text-3xl font-bold text-ink mb-8">
-            {days.length} of 30 shipped
+            {days.length} of {TOTAL_DAYS} shipped
           </h2>
           <div className="grid gap-4">
             {days.map((day) => {
@@ -205,7 +196,7 @@ export default function HomePage() {
             <p className="text-xs text-clay">Talk to your business.</p>
           </div>
           <p className="text-xs text-clay">
-            {days.length} of 30 shipped. Follow along.
+            {days.length} of {TOTAL_DAYS} shipped. Follow along.
           </p>
         </div>
       </footer>
