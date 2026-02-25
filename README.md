@@ -123,7 +123,7 @@ The seed script generates:
 
 ## Day 2/30: SaaS Billing Support — Talk to Your Billing Data
 
-**Stop alt-tabbing. Start asking.**
+**Stop switching apps. Start asking.**
 
 An MCP server that gives a billing support team instant access to customer accounts, invoices, transactions, and tickets through natural language.
 

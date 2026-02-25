@@ -75,7 +75,7 @@ export default function Day2Page() {
           </div>
 
           <p className="text-lg text-charcoal leading-relaxed max-w-2xl mb-2">
-            Stop alt-tabbing. Start asking.
+            Stop switching apps. Start asking.
           </p>
           <p className="text-charcoal leading-relaxed max-w-2xl">
             An MCP server that gives a billing support team instant access to customer accounts,
@@ -211,7 +211,7 @@ npm install && npm run seed && npm run build`}</code>
             Want one of these for your business?
           </h2>
           <p className="text-charcoal mb-8 max-w-lg mx-auto">
-            If your support team is still alt-tabbing between tools, let&apos;s fix that.
+            If your support team is still switching between three apps to answer one question, let&apos;s fix that.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
