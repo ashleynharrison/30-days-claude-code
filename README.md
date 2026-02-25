@@ -4,7 +4,7 @@ Every day for 30 days, I'm building a real, functional business tool for a diffe
 
 No tutorials. No toy projects. Tools that a business could use tomorrow.
 
-This is Day 1.
+This is Day 2.
 
 ---
 
@@ -121,7 +121,85 @@ The seed script generates:
 
 ---
 
+## Day 2/30: SaaS Billing Support — Talk to Your Billing Data
+
+**Stop alt-tabbing. Start asking.**
+
+An MCP server that gives a billing support team instant access to customer accounts, invoices, transactions, and tickets through natural language.
+
+### Example Queries
+
+- "Did Greenfield Analytics get charged twice in January?"
+- "Show me all failed payments this month"
+- "What's the billing history for Brightpath Studios?"
+- "Which customers have open refund requests?"
+- "What's our current MRR breakdown by plan?"
+- "Walk me through the proration on the Cascade Media downgrade"
+
+### Why SaaS Billing?
+
+I spent four years in billing support at a SaaS company. I've handled prorations, refunds, true-ups, failed payments, and every edge case in between — at high volume with a 95% CSAT rating. This tool solves the exact problem I lived every day: a customer writes in with a billing question, and the rep has to check three systems before they can even start typing a response.
+
+One question should be enough.
+
+### Tools
+
+| Tool | What It Does |
+|------|-------------|
+| `lookup_customer` | Search customers by name, email, or plan |
+| `get_billing_history` | Full invoice + transaction history for any account |
+| `find_discrepancies` | Surface duplicate charges, failed payments, anomalies |
+| `open_tickets` | View tickets by status, category, or assigned rep |
+| `revenue_summary` | MRR dashboard — totals, by plan, churn, failed payments |
+| `get_plan_changes` | Track upgrades, downgrades, and seat changes with prorations |
+
+### Setup
+
+```bash
+# Navigate to the project
+cd day02-saas-billing
+
+# Install dependencies
+npm install
+
+# Seed the database with demo data
+npm run seed
+
+# Build the server
+npm run build
+```
+
+### Claude Desktop Configuration
+
+Add this to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "saas-billing": {
+      "command": "node",
+      "args": ["/absolute/path/to/day02-saas-billing/dist/index.js"]
+    }
+  }
+}
+```
+
+Restart Claude Desktop, and you can start querying billing data.
+
+### Demo Data
+
+The seed script generates:
+- **30 customers** across Starter ($29/seat), Pro ($59/seat), Business ($99/seat), and Enterprise ($199/seat) plans
+- **160+ invoices** spanning 6 months of billing history
+- **200+ transactions** including charges, refunds, credits, and prorations
+- **40 support tickets** across billing disputes, refund requests, plan changes, payment failures, invoice questions, and cancellations
+- **25 plan changes** with proration calculations
+- **4 support reps**: Priya Sharma, Marcus Lee, Rachel Torres, Devon Okafor
+- **Realistic edge cases**: double charges, 3 failed payment retries, mid-cycle annual downgrade with proration, churned account with open refund, enterprise true-up (12 seats mid-quarter)
+
+---
+
 **Tell a Vsn** — Talk to your business.
 [tellavsn.com](https://tellavsn.com) | ashley@tellavsn.com
 
-Day 1 of 30. Follow along.
+Day 2 of 30. Follow along.

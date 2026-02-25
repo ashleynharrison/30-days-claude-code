@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "saas-billing": {
+      "command": "node",
+      "args": ["/FULL/PATH/TO/day02-saas-billing/dist/index.js"]
+    }
+  }
+}
