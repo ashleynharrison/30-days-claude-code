@@ -49,7 +49,7 @@ export default async function Image() {
               textTransform: 'uppercase',
             }}
           >
-            Day 1 of 30
+            Day 2 of 30
           </span>
         </div>
 
