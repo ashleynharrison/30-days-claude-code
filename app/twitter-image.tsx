@@ -1,4 +1,5 @@
 import { ImageResponse } from 'next/og';
+import { shippedCount, TOTAL_DAYS } from './days-data';
 
 export const runtime = 'edge';
 export const alt = '30 Days of Claude Code — Real business tools, different industry every day';
@@ -49,7 +50,7 @@ export default async function Image() {
               textTransform: 'uppercase',
             }}
           >
-            Day 1 of 30
+            Day {shippedCount} of {TOTAL_DAYS}
           </span>
         </div>
 

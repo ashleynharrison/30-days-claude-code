@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vet-clinic": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/day03-vet-clinic/dist/index.js"]
+    }
+  }
+}

@@ -19,6 +19,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 3,
+    title: 'Veterinary Clinic',
+    industry: 'Veterinary / Healthcare',
+    description: 'A vet clinic MCP server for patient records, vaccinations, appointments, treatments, and clinic stats.',
+    icon: 'Heart',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.length;

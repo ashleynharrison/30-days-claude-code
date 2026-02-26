@@ -4,7 +4,7 @@ Every day for 30 days, I'm building a real, functional business tool for a diffe
 
 No tutorials. No toy projects. Tools that a business could use tomorrow.
 
-This is Day 2.
+This is Day 3.
 
 ---
 
@@ -199,7 +199,85 @@ The seed script generates:
 
 ---
 
+## Day 3/30: Veterinary Clinic — Talk to Your Patient Records
+
+**The receptionist's new best friend.**
+
+An MCP server that connects a vet clinic's patient records, appointments, vaccinations, and treatment history to Claude. No clicking through charts. Just ask.
+
+### Example Queries
+
+- "Which patients are overdue for vaccinations?"
+- "Pull up Biscuit's full medical record"
+- "What's on Dr. Huang's schedule tomorrow?"
+- "Does the Ramirez cat have any allergies?"
+- "How many appointments do we have this week?"
+- "Show me all patients who came in for ear infections this year"
+
+### Why Veterinary?
+
+Vet clinics run on paper charts and clunky software that hasn't been updated since 2014. The front desk juggles patient lookups, vaccination reminders, and scheduling all day — usually across multiple screens. This tool puts all of it behind a single question.
+
+Plus, who doesn't want to build something for dogs?
+
+### Tools
+
+| Tool | What It Does |
+|------|-------------|
+| `search_patients` | Find pets by name, owner, species, or breed |
+| `get_patient_record` | Full medical record — vaccines, treatments, appointments, weight history, allergy alerts |
+| `overdue_vaccinations` | Patients overdue or due soon, with owner contact info |
+| `todays_schedule` | Today's appointments by vet, sorted by time |
+| `search_treatments` | Search by diagnosis, medication, or patient |
+| `clinic_stats` | Dashboard — patient count, appointments, revenue, outstanding balance, no-show rate |
+
+### Setup
+
+```bash
+# Navigate to the project
+cd day03-vet-clinic
+
+# Install dependencies
+npm install
+
+# Seed the database with demo data
+npm run seed
+
+# Build the server
+npm run build
+```
+
+### Claude Desktop Configuration
+
+Add this to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "vet-clinic": {
+      "command": "node",
+      "args": ["/absolute/path/to/day03-vet-clinic/dist/index.js"]
+    }
+  }
+}
+```
+
+Restart Claude Desktop, and you can start querying patient records.
+
+### Demo Data
+
+The seed script generates:
+- **3 staff**: Dr. Lisa Huang (small animal surgery), Dr. Marcus Webb (internal medicine), Samantha Cruz (vet tech)
+- **25 owners** with LA-area addresses and contact info
+- **35 patients** — 20 dogs, 10 cats, 2 rabbits, 1 bird, 1 bearded dragon
+- **82 appointments** spanning 6 months with all statuses (completed, scheduled, cancelled, no-show)
+- **82 vaccination records** — some current, some overdue, some due within 2 weeks
+- **54 treatment records** with realistic diagnoses, medications, and costs
+- **Realistic edge cases**: 14-year-old senior dog with arthritis + hypothyroid + lipoma (7 visits), cat with penicillin allergy, owner with 4 pets, 3-appointment no-show pattern, puppy with first-year vaccine schedule, emergency GDV surgery + recovery, overweight cat on diet plan, heart murmur monitoring, bearded dragon exotic care
+
+---
+
 **Tell a Vsn** — Talk to your business.
 [tellavsn.com](https://tellavsn.com) | ashley@tellavsn.com
 
-Day 2 of 30. Follow along.
+Day 3 of 30. Follow along.
