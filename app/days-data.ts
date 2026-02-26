@@ -30,4 +30,4 @@ export const days = [
   },
 ];
 
-export const shippedCount = days.length;
+export const shippedCount = days.filter((d) => d.status === 'shipped').length;
