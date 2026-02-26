@@ -28,6 +28,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 4,
+    title: 'Real Estate Agency',
+    industry: 'Real Estate',
+    description: 'A real estate MCP server for listings, clients, showings, offers, and deal pipeline tracking.',
+    icon: 'Home',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

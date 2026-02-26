@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "real-estate": {
+      "command": "node",
+      "args": ["/absolute/path/to/day04-real-estate/dist/index.js"]
+    }
+  }
+}
