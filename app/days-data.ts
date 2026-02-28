@@ -37,6 +37,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 5,
+    title: 'Restaurant & Hospitality Manager',
+    industry: 'Restaurants / Hospitality',
+    description: 'A restaurant MCP server for reservations, menu performance, staff scheduling, table status, service recaps, and 86\'d items.',
+    icon: 'UtensilsCrossed',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
