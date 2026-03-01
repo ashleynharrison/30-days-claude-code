@@ -46,6 +46,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 6,
+    title: 'Fitness Studio & Gym Manager',
+    industry: 'Fitness / Wellness',
+    description: 'A fitness studio MCP server for member management, class scheduling, attendance tracking, at-risk member alerts, instructor performance, and revenue insights.',
+    icon: 'Dumbbell',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
