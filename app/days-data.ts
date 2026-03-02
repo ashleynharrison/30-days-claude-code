@@ -55,6 +55,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 7,
+    title: 'Construction Project Tracker',
+    industry: 'Construction',
+    description: 'A construction MCP server for project oversight, subcontractor tracking, inspections, RFIs, change orders, and daily field logs.',
+    icon: 'HardHat',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

@@ -1,0 +1,23 @@
+{
+  "name": "day07-construction",
+  "version": "1.0.0",
+  "description": "Construction Project Tracker — MCP server for managing projects, subcontractors, inspections, RFIs, change orders, and daily logs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "seed": "tsx src/seed.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^11.9.1",
+    "zod": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.18",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
