@@ -64,6 +64,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 8,
+    title: 'E-Commerce Inventory & Orders',
+    industry: 'E-Commerce / Retail',
+    description: 'An e-commerce MCP server for product catalog, order tracking, customer insights, inventory alerts, sales analytics, and fulfillment queue.',
+    icon: 'ShoppingBag',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
