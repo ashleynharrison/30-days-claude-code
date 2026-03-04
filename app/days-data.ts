@@ -73,6 +73,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 9,
+    title: 'AI Document Analyzer',
+    industry: 'Legal / Professional Services',
+    description: 'An MCP server that turns a stack of legal documents into a queryable knowledge base — parties, key dates, obligations, clauses, and red flags.',
+    icon: 'FileSearch',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

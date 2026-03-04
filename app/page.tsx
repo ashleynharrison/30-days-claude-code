@@ -1,4 +1,4 @@
-import { Scale, CreditCard, Heart, Home, UtensilsCrossed, Dumbbell, HardHat, ShoppingBag, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
+import { Scale, CreditCard, Heart, Home, UtensilsCrossed, Dumbbell, HardHat, ShoppingBag, FileSearch, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { days as daysData, TOTAL_DAYS } from './days-data';
 import type { LucideIcon } from 'lucide-react';
@@ -12,6 +12,7 @@ const iconMap: Record<string, LucideIcon> = {
   Dumbbell,
   HardHat,
   ShoppingBag,
+  FileSearch,
 };
 
 const days = daysData.map((d) => ({
