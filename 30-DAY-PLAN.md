@@ -5,6 +5,11 @@
 - **Day 2** (Feb 24): SaaS Billing Support — MCP Integration
 - **Day 3** (Feb 25): Veterinary Clinic — MCP Integration
 - **Day 4** (Feb 26): Real Estate Agency — MCP Integration
+- **Day 5** (Feb 27): Restaurant & Hospitality Manager — MCP Integration
+- **Day 6** (Feb 28): Fitness Studio & Gym Manager — MCP Integration
+- **Day 7** (Mar 1): Construction Project Tracker — MCP Integration
+- **Day 8** (Mar 2): E-Commerce Inventory & Orders — MCP Integration
+- **Day 9** (Mar 3): AI Document Analyzer — AI Engineering
 
 ---
 
@@ -19,17 +24,17 @@ Lead with what's hottest. Establish the "talk to your business" pattern.
 | 2 ✅ | SaaS Billing Support | MCP Integration | SaaS / FinOps | 2 hrs |
 | 3 ✅ | Veterinary Clinic | MCP Integration | Veterinary / Healthcare | 2 hrs |
 | 4 ✅ | Real Estate Agency | MCP Integration | Real Estate | 2 hrs |
-| 5 | Restaurant & Hospitality Manager | MCP Integration | Restaurants / Hospitality | 2 hrs |
-| 6 | Fitness Studio & Gym Manager | MCP Integration | Fitness / Wellness | 2 hrs |
-| 7 | Construction Project Tracker | MCP Integration | Construction | 2 hrs |
+| 5 ✅ | Restaurant & Hospitality Manager | MCP Integration | Restaurants / Hospitality | 2 hrs |
+| 6 ✅ | Fitness Studio & Gym Manager | MCP Integration | Fitness / Wellness | 2 hrs |
+| 7 ✅ | Construction Project Tracker | MCP Integration | Construction | 2 hrs |
 
 ### Week 2: Expand the Toolkit (Days 8–14)
 Start mixing in other services. Show range beyond MCP.
 
 | Day | Title | Service | Industry | Build Time |
 |-----|-------|---------|----------|------------|
-| 8 | E-Commerce Inventory & Orders | MCP Integration | E-Commerce / Retail | 2 hrs |
-| 9 | AI Document Analyzer | AI Engineering | Legal / Professional Services | 3 hrs |
+| 8 ✅ | E-Commerce Inventory & Orders | MCP Integration | E-Commerce / Retail | 2 hrs |
+| 9 ✅ | AI Document Analyzer | AI Engineering | Legal / Professional Services | 3 hrs |
 | 10 | Client Intake Automation | AI Engineering | Legal / Consulting | 3 hrs |
 | 11 | Brand System Generator | UI/UX Design | Creative Agencies | 4 hrs |
 | 12 | Lighthouse Audit Dashboard | Performance Optimization | SaaS / Agencies | 3 hrs |
