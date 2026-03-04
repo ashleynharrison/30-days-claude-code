@@ -82,6 +82,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 10,
+    title: 'Client Intake Automation',
+    industry: 'Legal / Consulting',
+    description: 'An MCP server that manages the entire client intake pipeline — conflict checks, engagement letters, document collection, and workflow tracking.',
+    icon: 'UserCheck',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
