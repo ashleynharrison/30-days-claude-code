@@ -91,6 +91,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 11,
+    title: 'Brand System Generator',
+    industry: 'Creative Agencies',
+    description: 'An MCP server that generates complete brand systems — color palettes with WCAG ratios, typography pairings, design tokens, component specs, and style audits.',
+    icon: 'Palette',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
