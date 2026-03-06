@@ -88,7 +88,7 @@ export default function HomePage() {
                 <Link
                   key={day.day}
                   href={`/day/${day.day}`}
-                  className="group flex items-start gap-5 p-6 bg-linen border border-sand rounded-xl hover:border-terracotta/50 transition-colors"
+                  className="group flex items-start gap-5 p-6 bg-linen border border-sand border-l-4 border-l-sage rounded-xl hover:border-terracotta/50 hover:border-l-sage transition-colors"
                 >
                   <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-terracotta/10 flex items-center justify-center">
                     <Icon className="w-5 h-5 text-terracotta" />

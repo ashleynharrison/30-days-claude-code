@@ -133,7 +133,7 @@ Go out strong. Day 30 ties everything together.
 >
 > Real estate agents shouldn't need a tech degree to search their own inventory.
 
-### Day 5
+### Day 5 (POSTED Feb 27)
 > Day 5/30 — Restaurant Manager
 >
 > "What sold out last Friday night and what sat in the kitchen?"
@@ -142,7 +142,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/5
 
-### Day 6
+### Day 6 (POSTED Feb 28)
 > Day 6/30 — Fitness Studio
 >
 > "Which members haven't booked a class in 3 weeks?"
@@ -151,7 +151,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/6
 
-### Day 7
+### Day 7 (POSTED Mar 1)
 > Day 7/30 — Construction Project Tracker
 >
 > "Which subcontractors have open change orders on the Highland project?"
@@ -160,7 +160,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/7
 
-### Day 8
+### Day 8 (POSTED Mar 2)
 > Day 8/30 — E-Commerce Inventory
 >
 > "What's trending this week and what's about to go out of stock?"
@@ -169,7 +169,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/8
 
-### Day 9
+### Day 9 (POSTED Mar 3)
 > Day 9/30 — AI Document Analyzer
 >
 > Hand it a contract. Get back: parties, key dates, obligations, red flags.
@@ -178,7 +178,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/9
 
-### Day 10
+### Day 10 (POSTED Mar 4)
 > Day 10/30 — Client Intake Automation
 >
 > Every consulting firm has the same problem: onboarding takes 3 meetings when it should take 1.
@@ -187,7 +187,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/10
 
-### Day 11
+### Day 11 (POSTED Mar 4)
 > Day 11/30 — Brand System Generator
 >
 > Give it a company name and a vibe. Get a full brand system — color palette, typography pairings, component tokens, and a preview page.
