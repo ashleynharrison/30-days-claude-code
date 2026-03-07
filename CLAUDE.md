@@ -21,7 +21,11 @@ When building and deploying a new day, complete ALL of these steps:
 
 6. **Update `tsconfig.json`** — confirm the new `dayNN-*` pattern is in the exclude array (already pre-filled through day30)
 
-7. **Commit and push** — stage all new/modified files, commit, push to `origin/main` to trigger Vercel deploy
+7. **Update tweet calendar** — in `/Users/ashleyharrison/Documents/Tell a Vsn/30 Day Tweets/30-days-tweet-calendar.html`, change the day's `status: "upcoming"` to `status: "shipped"` (adds green left border)
+
+8. **Update `30-DAY-PLAN.md` tweet headers** — mark the tweet header as `(POSTED <date>)`
+
+9. **Commit and push** — stage all new/modified files, commit, push to `origin/main` to trigger Vercel deploy
 
 ## Project Structure
 

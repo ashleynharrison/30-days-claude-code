@@ -12,6 +12,7 @@
 - **Day 9** (Mar 3): AI Document Analyzer — AI Engineering
 - **Day 10** (Mar 4): Client Intake Automation — AI Engineering
 - **Day 11** (Mar 4): Brand System Generator — UI/UX Design
+- **Day 12** (Mar 4): Lighthouse Audit Dashboard — Performance Optimization
 
 ---
 
@@ -39,7 +40,7 @@ Start mixing in other services. Show range beyond MCP.
 | 9 ✅ | AI Document Analyzer | AI Engineering | Legal / Professional Services | 3 hrs |
 | 10 ✅ | Client Intake Automation | AI Engineering | Legal / Consulting | 3 hrs |
 | 11 ✅ | Brand System Generator | UI/UX Design | Creative Agencies | 4 hrs |
-| 12 | Lighthouse Audit Dashboard | Performance Optimization | SaaS / Agencies | 3 hrs |
+| 12 ✅ | Lighthouse Audit Dashboard | Performance Optimization | SaaS / Agencies | 3 hrs |
 | 13 | Auth & RLS Starter Kit | Security | SaaS / Startups | 3 hrs |
 | 14 | Nonprofit Donor & Grant Tracker | MCP Integration | Nonprofit | 2 hrs |
 
@@ -196,7 +197,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/11
 
-### Day 12
+### Day 12 (POSTED Mar 4)
 > Day 12/30 — Lighthouse Audit Dashboard
 >
 > "Our site feels slow" is not a bug report.

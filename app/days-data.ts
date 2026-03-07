@@ -100,6 +100,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 12,
+    title: 'Lighthouse Audit Dashboard',
+    industry: 'Web Performance / DevOps',
+    description: 'An MCP server that tracks Lighthouse scores, Core Web Vitals, performance budgets, optimization findings, and trend analysis across multiple sites.',
+    icon: 'Gauge',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
