@@ -109,6 +109,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 13,
+    title: 'Auth & RLS Starter Kit',
+    industry: 'Auth & Security',
+    description: 'An MCP server that audits auth configurations — role hierarchies, RLS policies, MFA compliance, user permissions, and security scoring across multiple project types.',
+    icon: 'ShieldCheck',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
