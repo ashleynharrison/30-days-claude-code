@@ -118,6 +118,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 14,
+    title: 'Nonprofit Donor & Grant Tracker',
+    industry: 'Nonprofit',
+    description: 'An MCP server for donor management, donation tracking, campaign performance, grant pipeline, retention analysis, and engagement logging.',
+    icon: 'HandHeart',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

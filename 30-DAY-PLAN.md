@@ -14,6 +14,7 @@
 - **Day 11** (Mar 4): Brand System Generator — UI/UX Design
 - **Day 12** (Mar 4): Lighthouse Audit Dashboard — Performance Optimization
 - **Day 13** (Mar 7): Auth & RLS Starter Kit — Security
+- **Day 14** (Mar 8): Nonprofit Donor & Grant Tracker — MCP Integration
 
 ---
 
@@ -43,7 +44,7 @@ Start mixing in other services. Show range beyond MCP.
 | 11 ✅ | Brand System Generator | UI/UX Design | Creative Agencies | 4 hrs |
 | 12 ✅ | Lighthouse Audit Dashboard | Performance Optimization | SaaS / Agencies | 3 hrs |
 | 13 ✅ | Auth & RLS Starter Kit | Security | SaaS / Startups | 3 hrs |
-| 14 | Nonprofit Donor & Grant Tracker | MCP Integration | Nonprofit | 2 hrs |
+| 14 ✅ | Nonprofit Donor & Grant Tracker | MCP Integration | Nonprofit | 2 hrs |
 
 ### Week 3: Go Deeper (Days 15–21)
 Full-day builds. Things that make people stop scrolling.
@@ -216,7 +217,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/13
 
-### Day 14
+### Day 14 (POSTED Mar 8)
 > Day 14/30 — Nonprofit Donor Tracker
 >
 > "Who gave last year but hasn't this year?"
