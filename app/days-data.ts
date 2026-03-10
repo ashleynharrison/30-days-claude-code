@@ -127,6 +127,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 15,
+    title: 'Churn Prediction Pipeline',
+    industry: 'SaaS / Subscription',
+    description: 'An ML-powered MCP server that scores churn risk from usage patterns, billing signals, and support history — then recommends interventions.',
+    icon: 'TrendingDown',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

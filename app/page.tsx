@@ -1,4 +1,4 @@
-import { Scale, CreditCard, Heart, Home, UtensilsCrossed, Dumbbell, HardHat, ShoppingBag, FileSearch, UserCheck, Palette, Gauge, ShieldCheck, HandHeart, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
+import { Scale, CreditCard, Heart, Home, UtensilsCrossed, Dumbbell, HardHat, ShoppingBag, FileSearch, UserCheck, Palette, Gauge, ShieldCheck, HandHeart, TrendingDown, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { days as daysData, TOTAL_DAYS } from './days-data';
 import type { LucideIcon } from 'lucide-react';
@@ -18,6 +18,7 @@ const iconMap: Record<string, LucideIcon> = {
   Gauge,
   ShieldCheck,
   HandHeart,
+  TrendingDown,
 };
 
 const days = daysData.map((d) => ({
