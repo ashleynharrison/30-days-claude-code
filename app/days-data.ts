@@ -136,6 +136,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 16,
+    title: 'CI/CD Status Dashboard',
+    industry: 'DevOps / Engineering',
+    description: 'An MCP server that tracks build status, deployment history, pipeline health, and uptime across every project — one question instead of four dashboards.',
+    icon: 'GitBranch',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

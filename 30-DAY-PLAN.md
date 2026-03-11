@@ -15,6 +15,8 @@
 - **Day 12** (Mar 4): Lighthouse Audit Dashboard — Performance Optimization
 - **Day 13** (Mar 7): Auth & RLS Starter Kit — Security
 - **Day 14** (Mar 8): Nonprofit Donor & Grant Tracker — MCP Integration
+- **Day 15** (Mar 9): Churn Prediction Pipeline — ML Engineering
+- **Day 16** (Mar 10): CI/CD Status Dashboard — DevOps
 
 ---
 
@@ -51,8 +53,8 @@ Full-day builds. Things that make people stop scrolling.
 
 | Day | Title | Service | Industry | Build Time |
 |-----|-------|---------|----------|------------|
-| 15 | Churn Prediction Pipeline | ML Engineering | SaaS / Subscription | 4 hrs |
-| 16 | CI/CD Status Dashboard | DevOps | Any / Engineering Teams | 3 hrs |
+| 15 ✅ | Churn Prediction Pipeline | ML Engineering | SaaS / Subscription | 4 hrs |
+| 16 ✅ | CI/CD Status Dashboard | DevOps | Any / Engineering Teams | 3 hrs |
 | 17 | Education Course & Student Manager | MCP Integration | Education | 2 hrs |
 | 18 | Competitive Analysis Dashboard | Digital Strategy | Agencies / Startups | 4 hrs |
 | 19 | Core Web Vitals Monitor | Performance Optimization | E-Commerce / Agencies | 3 hrs |
@@ -226,7 +228,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/14
 
-### Day 15
+### Day 15 (POSTED Mar 9)
 > Day 15/30 — Churn Prediction Pipeline
 >
 > Your best customers don't leave without warning. You're just not listening.
