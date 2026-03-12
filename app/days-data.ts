@@ -145,6 +145,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 17,
+    title: 'Education Course & Student Manager',
+    industry: 'Education / EdTech',
+    description: 'An MCP server for course management, student tracking, grade books, at-risk alerts, assignment monitoring, and department-level analytics.',
+    icon: 'GraduationCap',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

@@ -17,6 +17,7 @@
 - **Day 14** (Mar 8): Nonprofit Donor & Grant Tracker — MCP Integration
 - **Day 15** (Mar 9): Churn Prediction Pipeline — ML Engineering
 - **Day 16** (Mar 10): CI/CD Status Dashboard — DevOps
+- **Day 17** (Mar 12): Education Course & Student Manager — MCP Integration
 
 ---
 
@@ -55,7 +56,7 @@ Full-day builds. Things that make people stop scrolling.
 |-----|-------|---------|----------|------------|
 | 15 ✅ | Churn Prediction Pipeline | ML Engineering | SaaS / Subscription | 4 hrs |
 | 16 ✅ | CI/CD Status Dashboard | DevOps | Any / Engineering Teams | 3 hrs |
-| 17 | Education Course & Student Manager | MCP Integration | Education | 2 hrs |
+| 17 ✅ | Education Course & Student Manager | MCP Integration | Education | 2 hrs |
 | 18 | Competitive Analysis Dashboard | Digital Strategy | Agencies / Startups | 4 hrs |
 | 19 | Core Web Vitals Monitor | Performance Optimization | E-Commerce / Agencies | 3 hrs |
 | 20 | Multi-Tenant Auth System | Security | SaaS / B2B | 4 hrs |
@@ -246,7 +247,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/16
 
-### Day 17
+### Day 17 (POSTED Mar 12)
 > Day 17/30 — Education Course Manager
 >
 > "Which students are falling behind in the Python course?"
