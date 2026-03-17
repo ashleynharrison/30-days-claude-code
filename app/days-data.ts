@@ -154,6 +154,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 18,
+    title: 'Competitive Analysis Dashboard',
+    industry: 'Agencies / Startups',
+    description: 'An MCP server that tracks competitors\' pricing, features, positioning, market moves, and win/loss patterns — ask a question instead of digging through spreadsheets.',
+    icon: 'Target',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

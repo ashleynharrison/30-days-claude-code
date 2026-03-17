@@ -18,6 +18,7 @@
 - **Day 15** (Mar 9): Churn Prediction Pipeline — ML Engineering
 - **Day 16** (Mar 10): CI/CD Status Dashboard — DevOps
 - **Day 17** (Mar 12): Education Course & Student Manager — MCP Integration
+- **Day 18** (Mar 16): Competitive Analysis Dashboard — Digital Strategy
 
 ---
 
@@ -57,7 +58,7 @@ Full-day builds. Things that make people stop scrolling.
 | 15 ✅ | Churn Prediction Pipeline | ML Engineering | SaaS / Subscription | 4 hrs |
 | 16 ✅ | CI/CD Status Dashboard | DevOps | Any / Engineering Teams | 3 hrs |
 | 17 ✅ | Education Course & Student Manager | MCP Integration | Education | 2 hrs |
-| 18 | Competitive Analysis Dashboard | Digital Strategy | Agencies / Startups | 4 hrs |
+| 18 ✅ | Competitive Analysis Dashboard | Digital Strategy | Agencies / Startups | 4 hrs |
 | 19 | Core Web Vitals Monitor | Performance Optimization | E-Commerce / Agencies | 3 hrs |
 | 20 | Multi-Tenant Auth System | Security | SaaS / B2B | 4 hrs |
 | 21 | AI Proposal Writer | AI Engineering | Consulting / Agencies | 4 hrs |
@@ -256,7 +257,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/17
 
-### Day 18
+### Day 18 (POSTED Mar 16)
 > Day 18/30 — Competitive Analysis Dashboard
 >
 > "What are our top 3 competitors doing differently?"
