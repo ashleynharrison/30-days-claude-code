@@ -163,6 +163,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 19,
+    title: 'Core Web Vitals Monitor',
+    industry: 'E-Commerce / Agencies',
+    description: 'An MCP server that tracks LCP, CLS, and INP across multiple sites — with trends, performance budgets, alerts, and a prioritized optimization hit list.',
+    icon: 'Activity',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "core-web-vitals": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/day19-core-web-vitals/dist/index.js"]
+    }
+  }
+}
