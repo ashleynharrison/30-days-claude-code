@@ -20,6 +20,7 @@
 - **Day 17** (Mar 12): Education Course & Student Manager — MCP Integration
 - **Day 18** (Mar 16): Competitive Analysis Dashboard — Digital Strategy
 - **Day 19** (Mar 17): Core Web Vitals Monitor — Performance Optimization
+- **Day 20** (Mar 18): Multi-Tenant Auth System — Security
 
 ---
 
@@ -61,7 +62,7 @@ Full-day builds. Things that make people stop scrolling.
 | 17 ✅ | Education Course & Student Manager | MCP Integration | Education | 2 hrs |
 | 18 ✅ | Competitive Analysis Dashboard | Digital Strategy | Agencies / Startups | 4 hrs |
 | 19 ✅ | Core Web Vitals Monitor | Performance Optimization | E-Commerce / Agencies | 3 hrs |
-| 20 | Multi-Tenant Auth System | Security | SaaS / B2B | 4 hrs |
+| 20 ✅ | Multi-Tenant Auth System | Security | SaaS / B2B | 4 hrs |
 | 21 | AI Proposal Writer | AI Engineering | Consulting / Agencies | 4 hrs |
 
 ### Week 4: The Crescendo (Days 22–28)
@@ -276,7 +277,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/19
 
-### Day 20
+### Day 20 (POSTED Mar 18)
 > Day 20/30 — Multi-Tenant Auth System
 >
 > The moment your SaaS gets a second customer, everything breaks.

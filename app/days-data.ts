@@ -172,6 +172,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 20,
+    title: 'Multi-Tenant Auth System',
+    industry: 'SaaS / B2B',
+    description: 'An MCP server for multi-tenant authentication — org-level isolation, role hierarchies, invite flows, MFA compliance, and audit trails.',
+    icon: 'Lock',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
