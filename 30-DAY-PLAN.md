@@ -21,6 +21,7 @@
 - **Day 18** (Mar 16): Competitive Analysis Dashboard — Digital Strategy
 - **Day 19** (Mar 17): Core Web Vitals Monitor — Performance Optimization
 - **Day 20** (Mar 18): Multi-Tenant Auth System — Security
+- **Day 21** (Mar 19): AI Proposal Writer — AI Engineering
 
 ---
 
@@ -63,7 +64,7 @@ Full-day builds. Things that make people stop scrolling.
 | 18 ✅ | Competitive Analysis Dashboard | Digital Strategy | Agencies / Startups | 4 hrs |
 | 19 ✅ | Core Web Vitals Monitor | Performance Optimization | E-Commerce / Agencies | 3 hrs |
 | 20 ✅ | Multi-Tenant Auth System | Security | SaaS / B2B | 4 hrs |
-| 21 | AI Proposal Writer | AI Engineering | Consulting / Agencies | 4 hrs |
+| 21 ✅ | AI Proposal Writer | AI Engineering | Consulting / Agencies | 4 hrs |
 
 ### Week 4: The Crescendo (Days 22–28)
 Portfolio-grade builds. These are the ones that close deals.
@@ -286,7 +287,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/20
 
-### Day 21
+### Day 21 (POSTED Mar 19)
 > Day 21/30 — AI Proposal Writer
 >
 > You spend 4 hours writing a proposal. The client spends 4 minutes reading it.

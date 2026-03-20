@@ -181,6 +181,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 21,
+    title: 'AI Proposal Writer',
+    industry: 'Consulting / Agencies',
+    description: 'An MCP server that drafts SOWs, scopes, and pricing from a brief. Generate proposals, estimate scope, and manage your pipeline — you edit and send.',
+    icon: 'FileText',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
