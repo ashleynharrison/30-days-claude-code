@@ -86,42 +86,44 @@ export default function HomePage() {
 
       {/* Day Cards */}
       <section className="py-20 px-6 border-t border-sand">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <p className="font-mono text-sm text-terracotta tracking-wider uppercase mb-4">Progress</p>
           <h2 className="font-serif text-3xl font-bold text-ink mb-8">
             {days.length} of {TOTAL_DAYS} shipped
           </h2>
-          <div className="grid gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {days.map((day) => {
               const Icon = day.icon;
               return (
                 <Link
                   key={day.day}
                   href={`/day/${day.day}`}
-                  className="group flex items-start gap-5 p-6 bg-linen border border-sand border-l-4 border-l-sage rounded-xl hover:border-terracotta/50 hover:border-l-sage transition-colors"
+                  className="group flex flex-col p-5 bg-linen border border-sand border-t-4 border-t-sage rounded-xl hover:border-terracotta/50 hover:border-t-terracotta transition-colors"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-terracotta/10 flex items-center justify-center">
-                    <Icon className="w-5 h-5 text-terracotta" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-3 mb-1">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-terracotta/10 flex items-center justify-center">
+                      <Icon className="w-4 h-4 text-terracotta" />
+                    </div>
+                    <div>
                       <span className="font-mono text-xs text-terracotta tracking-wider uppercase">
                         Day {day.day}
                       </span>
-                      <span className="font-mono text-xs text-clay">{day.industry}</span>
+                      <p className="font-mono text-[11px] text-clay leading-tight">{day.industry}</p>
                     </div>
-                    <h3 className="font-serif text-xl font-bold text-ink mb-1 group-hover:text-terracotta transition-colors">
-                      {day.title}
-                    </h3>
-                    <p className="text-sm text-charcoal leading-relaxed">{day.description}</p>
-                    <div className="flex items-center gap-4 mt-3">
+                  </div>
+                  <h3 className="font-serif text-lg font-bold text-ink mb-2 group-hover:text-terracotta transition-colors leading-snug">
+                    {day.title}
+                  </h3>
+                  <p className="text-sm text-charcoal leading-relaxed flex-1 line-clamp-3">{day.description}</p>
+                  <div className="flex items-center justify-between mt-4 pt-3 border-t border-sand/60">
+                    <div className="flex items-center gap-3">
                       <span className="text-xs font-mono text-clay">{day.tools} tools</span>
                       <span className="inline-flex items-center gap-1 text-xs font-mono text-sage">
                         Shipped
                       </span>
                     </div>
+                    <ArrowRight className="w-4 h-4 text-sand group-hover:text-terracotta transition-colors" />
                   </div>
-                  <ArrowRight className="w-5 h-5 text-sand group-hover:text-terracotta transition-colors flex-shrink-0 mt-1" />
                 </Link>
               );
             })}
@@ -130,14 +132,12 @@ export default function HomePage() {
             {Array.from({ length: 3 }, (_, i) => (
               <div
                 key={`upcoming-${i}`}
-                className="flex items-center gap-5 p-6 border border-dashed border-sand/80 rounded-xl opacity-40"
+                className="flex flex-col items-center justify-center p-5 border border-dashed border-sand/80 rounded-xl opacity-40 min-h-[180px]"
               >
-                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-sand/30 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-lg bg-sand/30 flex items-center justify-center mb-2">
                   <span className="font-mono text-sm text-clay">{days.length + i + 1}</span>
                 </div>
-                <div>
-                  <span className="font-mono text-xs text-clay tracking-wider">Day {days.length + i + 1} &mdash; Coming soon</span>
-                </div>
+                <span className="font-mono text-xs text-clay tracking-wider">Coming soon</span>
               </div>
             ))}
           </div>
