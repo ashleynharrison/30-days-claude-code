@@ -21,7 +21,7 @@ When building and deploying a new day, complete ALL of these steps:
 
 6. **Update `tsconfig.json`** — confirm the new `dayNN-*` pattern is in the exclude array (already pre-filled through day30)
 
-7. **Update tweet calendar** — in `/Users/ashleyharrison/Documents/Tell a Vsn/30 Day Tweets/30-days-tweet-calendar.html`, change the day's `status: "upcoming"` to `status: "shipped"` (adds green left border)
+7. **Update tweet calendar** — in `/Users/ashleyharrison/Documents/a_Ashley/0 Tell a Vsn/30 Day Tweets/30-days-tweet-calendar.html`, change the day's `status: "upcoming"` to `status: "shipped"` (adds green left border). **DO NOT SKIP THIS STEP.**
 
 8. **Update `30-DAY-PLAN.md` tweet headers** — mark the tweet header as `(POSTED <date>)`
 

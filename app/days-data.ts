@@ -190,6 +190,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 22,
+    title: 'Wealth Management Portfolio Tracker',
+    industry: 'Finance / Wealth Mgmt',
+    description: 'An MCP server for portfolio tracking across custodians — client books, holdings, allocation drift, risk analysis, transaction history, and alerts.',
+    icon: 'Landmark',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
