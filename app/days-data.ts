@@ -208,6 +208,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 24,
+    title: 'Sentiment Analysis Pipeline',
+    industry: 'Hospitality / Retail',
+    description: 'An ML-powered MCP server that processes customer reviews, scores sentiment, extracts recurring themes, tracks trends over time, and generates prioritized action items.',
+    icon: 'MessageCircleHeart',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
