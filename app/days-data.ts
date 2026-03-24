@@ -199,6 +199,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 23,
+    title: 'Design System Component Library',
+    industry: 'Product / Design Teams',
+    description: 'An MCP server for managing design systems — tokens, components, variants, dark mode values, accessibility audits, dependency graphs, and changelogs.',
+    icon: 'Component',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
