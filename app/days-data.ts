@@ -217,6 +217,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 25,
+    title: 'Infrastructure Cost Tracker',
+    industry: 'SaaS / Enterprise',
+    description: 'An MCP server that tracks cloud spend across AWS, GCP, Azure, and Vercel — cost breakdowns, budget status, anomaly detection, forecasts, and provider comparisons.',
+    icon: 'Server',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
