@@ -226,6 +226,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 26,
+    title: 'Tech Stack Decision Engine',
+    industry: 'Startups / CTOs',
+    description: 'An MCP server that evaluates 32 technologies across 12 weighted criteria — compare frameworks, get full-stack recommendations based on team size, budget, and timeline.',
+    icon: 'Cpu',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

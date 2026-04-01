@@ -26,6 +26,7 @@
 - **Day 23** (Mar 23): Design System Component Library — UI/UX Design
 - **Day 24** (Mar 24): Sentiment Analysis Pipeline — ML Engineering
 - **Day 25** (Mar 26): Infrastructure Cost Tracker — DevOps
+- **Day 26** (Mar 31): Tech Stack Decision Engine — Digital Strategy
 
 ---
 
@@ -79,7 +80,7 @@ Portfolio-grade builds. These are the ones that close deals.
 | 23 ✅ | Design System Component Library | UI/UX Design | Any / Product Teams | 4 hrs |
 | 24 ✅ | Sentiment Analysis Pipeline | ML Engineering | Hospitality / Retail | 4 hrs |
 | 25 ✅ | Infrastructure Cost Tracker | DevOps | SaaS / Enterprise | 3 hrs |
-| 26 | Tech Stack Decision Engine | Digital Strategy | Startups / CTOs | 4 hrs |
+| 26 ✅ | Tech Stack Decision Engine | Digital Strategy | Startups / CTOs | 4 hrs |
 | 27 | AI Meeting Notes & Action Items | AI Engineering | Any / Teams | 3 hrs |
 | 28 | Interactive Client Portal | Custom Development | Agencies / Consulting | 4 hrs |
 
@@ -336,7 +337,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/25
 
-### Day 26
+### Day 26 (POSTED Mar 31)
 > Day 26/30 — Tech Stack Decision Engine
 >
 > "Should we use Next.js or Remix?" is never actually about Next.js or Remix.
