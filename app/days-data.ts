@@ -235,6 +235,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 27,
+    title: 'AI Meeting Notes & Action Items',
+    industry: 'Any / Teams',
+    description: 'An MCP server that turns meeting chaos into clarity — searchable notes, tracked action items with owners and deadlines, a decision log, and automated follow-up reports.',
+    icon: 'MessageSquareText',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
