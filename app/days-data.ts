@@ -244,6 +244,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 28,
+    title: 'Interactive Client Portal',
+    industry: 'Agencies / Consulting',
+    description: 'An MCP server that powers a complete client portal — project timelines, deliverable approvals, invoice tracking, messaging, and a pipeline dashboard.',
+    icon: 'LayoutDashboard',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

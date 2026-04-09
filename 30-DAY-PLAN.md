@@ -28,6 +28,7 @@
 - **Day 25** (Mar 26): Infrastructure Cost Tracker — DevOps
 - **Day 26** (Mar 31): Tech Stack Decision Engine — Digital Strategy
 - **Day 27** (Apr 2): AI Meeting Notes & Action Items — AI Engineering
+- **Day 28** (Apr 8): Interactive Client Portal — Custom Development
 
 ---
 
@@ -83,7 +84,7 @@ Portfolio-grade builds. These are the ones that close deals.
 | 25 ✅ | Infrastructure Cost Tracker | DevOps | SaaS / Enterprise | 3 hrs |
 | 26 ✅ | Tech Stack Decision Engine | Digital Strategy | Startups / CTOs | 4 hrs |
 | 27 ✅ | AI Meeting Notes & Action Items | AI Engineering | Any / Teams | 3 hrs |
-| 28 | Interactive Client Portal | Custom Development | Agencies / Consulting | 4 hrs |
+| 28 ✅ | Interactive Client Portal | Custom Development | Agencies / Consulting | 4 hrs |
 
 ### Week 5: The Finish (Days 29–30)
 Go out strong. Day 30 ties everything together.
@@ -356,7 +357,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/27
 
-### Day 28
+### Day 28 (POSTED Apr 8)
 > Day 28/30 — Client Portal
 >
 > Your clients shouldn't have to email you to check project status.

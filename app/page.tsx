@@ -1,4 +1,4 @@
-import { Scale, CreditCard, Heart, Home, UtensilsCrossed, Dumbbell, HardHat, ShoppingBag, FileSearch, UserCheck, Palette, Gauge, ShieldCheck, HandHeart, TrendingDown, GitBranch, GraduationCap, Target, Activity, Lock, FileText, Landmark, Component, MessageCircleHeart, Server, Cpu, MessageSquareText, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
+import { Scale, CreditCard, Heart, Home, UtensilsCrossed, Dumbbell, HardHat, ShoppingBag, FileSearch, UserCheck, Palette, Gauge, ShieldCheck, HandHeart, TrendingDown, GitBranch, GraduationCap, Target, Activity, Lock, FileText, Landmark, Component, MessageCircleHeart, Server, Cpu, MessageSquareText, LayoutDashboard, Github, Mail, ExternalLink, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { days as daysData, TOTAL_DAYS } from './days-data';
 import type { LucideIcon } from 'lucide-react';
@@ -31,6 +31,7 @@ const iconMap: Record<string, LucideIcon> = {
   Server,
   Cpu,
   MessageSquareText,
+  LayoutDashboard,
 };
 
 const days = daysData.map((d) => ({
