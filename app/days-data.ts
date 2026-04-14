@@ -253,6 +253,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 29,
+    title: 'Healthcare Patient Intake',
+    industry: 'Healthcare',
+    description: 'An MCP server that runs the entire patient intake workflow — digital forms with clinical flags, insurance verification, HIPAA consents, and a front-desk queue that knows which appointments aren\'t ready yet.',
+    icon: 'Stethoscope',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;

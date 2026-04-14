@@ -29,6 +29,7 @@
 - **Day 26** (Mar 31): Tech Stack Decision Engine — Digital Strategy
 - **Day 27** (Apr 2): AI Meeting Notes & Action Items — AI Engineering
 - **Day 28** (Apr 8): Interactive Client Portal — Custom Development
+- **Day 29** (Apr 13): Healthcare Patient Intake System — Custom Development
 
 ---
 
@@ -91,7 +92,7 @@ Go out strong. Day 30 ties everything together.
 
 | Day | Title | Service | Industry | Build Time |
 |-----|-------|---------|----------|------------|
-| 29 | Healthcare Patient Intake System | Custom Development | Healthcare | 4 hrs |
+| 29 ✅ | Healthcare Patient Intake System | Custom Development | Healthcare | 4 hrs |
 | 30 | The MCP Starter Kit | Custom Development + MCP | Any | 5 hrs |
 
 ---
@@ -366,7 +367,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/28
 
-### Day 29
+### Day 29 (POSTED Apr 13)
 > Day 29/30 — Healthcare Patient Intake
 >
 > Paper clipboards in 2026. Really?
