@@ -137,18 +137,19 @@ export default function HomePage() {
               );
             })}
 
-            {/* Placeholder for upcoming days */}
-            {Array.from({ length: 3 }, (_, i) => (
-              <div
-                key={`upcoming-${i}`}
-                className="flex flex-col items-center justify-center p-5 border border-dashed border-sand/80 rounded-xl opacity-40 min-h-[180px]"
-              >
-                <div className="w-10 h-10 rounded-lg bg-sand/30 flex items-center justify-center mb-2">
-                  <span className="font-mono text-sm text-clay">{days.length + i + 1}</span>
+            {/* Placeholder for upcoming days — only shown while the series is in progress */}
+            {days.length < TOTAL_DAYS &&
+              Array.from({ length: Math.min(3, TOTAL_DAYS - days.length) }, (_, i) => (
+                <div
+                  key={`upcoming-${i}`}
+                  className="flex flex-col items-center justify-center p-5 border border-dashed border-sand/80 rounded-xl opacity-40 min-h-[180px]"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-sand/30 flex items-center justify-center mb-2">
+                    <span className="font-mono text-sm text-clay">{days.length + i + 1}</span>
+                  </div>
+                  <span className="font-mono text-xs text-clay tracking-wider">Coming soon</span>
                 </div>
-                <span className="font-mono text-xs text-clay tracking-wider">Coming soon</span>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
       </section>
