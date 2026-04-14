@@ -93,7 +93,7 @@ Go out strong. Day 30 ties everything together.
 | Day | Title | Service | Industry | Build Time |
 |-----|-------|---------|----------|------------|
 | 29 ✅ | Healthcare Patient Intake System | Custom Development | Healthcare | 4 hrs |
-| 30 | The MCP Starter Kit | Custom Development + MCP | Any | 5 hrs |
+| 30 ✅ | The MCP Starter Kit | Custom Development + MCP | Any | 5 hrs |
 
 ---
 
@@ -376,7 +376,7 @@ Go out strong. Day 30 ties everything together.
 >
 > 30-days-claude-code.vercel.app/day/29
 
-### Day 30
+### Day 30 (POSTED Apr 14)
 > Day 30/30 — The MCP Starter Kit
 >
 > 30 days. 30 builds. 10 industries. 9 services.
