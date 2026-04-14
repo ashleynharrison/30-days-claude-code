@@ -262,6 +262,15 @@ export const days = [
     tools: 6,
     status: 'shipped' as const,
   },
+  {
+    day: 30,
+    title: 'The MCP Starter Kit',
+    industry: 'Open Source / Any',
+    description: 'The capstone. An open-source starter kit with six patterns every MCP needs — lookup, upsert, filtered list, create, analytics, and audit — so anyone can ship their own MCP in an afternoon.',
+    icon: 'Rocket',
+    tools: 6,
+    status: 'shipped' as const,
+  },
 ];
 
 export const shippedCount = days.filter((d) => d.status === 'shipped').length;
